@@ -199,7 +199,7 @@ http://localhost:8200
    - **Chiffrement** : AES-256 (par défaut)
    - **Phrase secrète** : choisir un mot de passe
 
-<img src="images/15.png" alt="Paramètres généraux de sauvegarde" width="600">
+<img src="images/15.png" alt="Paramètres généraux de sauvegarde" width="500">
 
 4. **Destination** — renseigner la destination :
    - **Type de stockage** : Dossier ou disque local
@@ -212,20 +212,20 @@ http://localhost:8200
 > [!NOTE]
 > Les cases identifiants sont laissées vides car les permissions d'accès sont gérées directement par le protocole NFS.
 
-<img src="images/16.png" alt="Formulaire Destination de sauvegarde" width="600">
+<img src="images/16.png" alt="Formulaire Destination de sauvegarde" width="500">
 
 5. **Données source** — sélectionner les dossiers à sauvegarder :
    - ✅ `Desktop`
    - ✅ `Home` (pour test)
 
-<img src="images/17.png" alt="Desktop et Home" width="600">
+<img src="images/17.png" alt="Desktop et Home" width="500">
 
 6. **Planification** — configurer la fréquence :
    - Cocher **« Lancer des sauvegardes automatiques »**
    - Fréquence : tous les **1 Jour**
    - Jours autorisés : tous cochés
 
-<img src="images/18.png" alt="Formulaire Planifier" width="600">
+<img src="images/18.png" alt="Formulaire Planifier" width="500">
 
 ### 8. Lancer la sauvegarde manuellement
 
