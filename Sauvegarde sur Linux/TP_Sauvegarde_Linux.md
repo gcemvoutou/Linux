@@ -99,7 +99,8 @@ sudo systemctl start nfs-server
 sudo systemctl status nfs-server
 ```
 
-> **📷 Capture :** Terminal — statut `active (exited)` ✅
+<img src="images/6.png" alt="Terminal — statut `active (exited)` ✅" width="600">
+
 
 ### Commandes utiles
 
@@ -109,7 +110,7 @@ sudo systemctl status nfs-server
 | `sudo systemctl restart nfs-server` | Redémarre le serveur (à faire après modification de `/etc/exports`) |
 | `sudo systemctl status nfs-server` | Vérifie que le service tourne |
 
-> **📷 Capture :** Statut après `stop` (inactive/dead) puis après `restart` (active)
+<img src="images/7.png" alt="Statut après `stop`" width="600">
 
 ---
 
