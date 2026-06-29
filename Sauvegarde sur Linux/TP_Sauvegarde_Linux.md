@@ -199,7 +199,7 @@ http://localhost:8200
    - **Chiffrement** : AES-256 (par défaut)
    - **Phrase secrète** : choisir un mot de passe
 
-<img src="images/14.png" alt="Paramètres généraux de sauvegarde" width="600">
+<img src="images/15.png" alt="Paramètres généraux de sauvegarde" width="600">
 
 4. **Destination** — renseigner la destination :
    - **Type de stockage** : Dossier ou disque local
