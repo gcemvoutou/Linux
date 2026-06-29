@@ -212,28 +212,26 @@ http://localhost:8200
 > [!NOTE]
 > Les cases identifiants sont laissées vides car les permissions d'accès sont gérées directement par le protocole NFS.
 
-> **📷 Capture :** Formulaire "Destination de sauvegarde"
+<img src="images/16.png" alt="Formulaire Destination de sauvegarde" width="600">
 
 5. **Données source** — sélectionner les dossiers à sauvegarder :
    - ✅ `Desktop`
    - ✅ `Home` (pour test)
 
-> **📷 Capture :** Arbre "Données source" avec Desktop et Home cochés
+<img src="images/17.png" alt="Desktop et Home" width="600">
 
 6. **Planification** — configurer la fréquence :
    - Cocher **« Lancer des sauvegardes automatiques »**
    - Fréquence : tous les **1 Jour**
    - Jours autorisés : tous cochés
 
-> **📷 Capture :** Formulaire Planifier — prochaine exécution à 13h00
+<img src="images/18.png" alt="Formulaire Planifier" width="600">
 
 ### 8. Lancer la sauvegarde manuellement
 
 Cliquer sur **« Démarrer maintenant »** (ou *Run now*) sous le nom de la sauvegarde.
 
-> **📷 Capture :** Barre de progression — `Sauvegarde_NFS : 1245 fichiers 235.86 MB à transférer`
-
-> **📷 Capture :** Statut en cours — `Backup_ProcessingFiles` à 66.54%
+<img src="images/18.png" alt="Barre de progression" width="600">
 
 ---
 
@@ -247,15 +245,16 @@ Côté serveur :
 ls -lh /mnt/partage
 ```
 
-> **📷 Capture :** Liste des fichiers `.aes` générés par Duplicati sur le serveur
+<img src="images/20.png" alt="Liste des fichiers `.aes`" width="600">
 
 Côté client (autre machine) :
+Même liste visible depuis la machine cliente
 
 ```bash
 ls -lh /mnt/partage
 ```
 
-> **📷 Capture :** Même liste visible depuis la machine cliente
+<img src="images/21.png" alt="Même liste visible depuis la machine cliente" width="600">
 
 ### Copie manuelle d'un fichier (cp)
 
@@ -271,11 +270,12 @@ cp /mnt/partage/duplicati-20260629T110000Z.dlist.zip.aes ~/Documents/
 ```bash
 tar -czvf ~/Documents/backup_duplicati_total.tar.gz /mnt/partage
 ```
+*Pour créer une archive complète (un point de restauration figé) de tout notre dossier de sauvegarde NFS. On utilise tar pour compresser tout le contenu de /mnt/partage en un seul fichier**
 
 > [!TIP]
 > `tar -czvf` : **c**réer, **z** compresser (gzip), **v**erbeux (affiche les fichiers), **f** spécifie le nom du fichier de sortie.
 
-> **📷 Capture :** Terminal — liste des fichiers ajoutés à l'archive
+> **📷 Capture :** Terminal — liste des fichiers ajoutés à l'archive <img src="images/22.png" alt="liste des fichiers ajoutés à l'archive" width="600">
 
 ---
 
