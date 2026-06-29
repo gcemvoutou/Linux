@@ -31,8 +31,7 @@
 ```bash
 sudo apt update
 ```
-
-> **📷 Capture :** Terminal — sortie de `apt update`
+<img src="images/2.png" alt="Terminal — sortie de `apt update`" width="450">
 
 ### 2. Appliquer les mises à jour
 
@@ -43,7 +42,8 @@ sudo apt upgrade
 > [!NOTE]
 > Linux peut indiquer qu'aucune mise à jour n'est requise mais signaler qu'un ancien paquet résiduel (ex. `libllvm8`) n'est plus nécessaire et peut être nettoyé.
 
-> **📷 Capture :** Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression
+<img src="images/3.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="450">
+<img src="images/4.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="450">
 
 ---
 
