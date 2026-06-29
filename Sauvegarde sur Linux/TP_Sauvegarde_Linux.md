@@ -55,7 +55,7 @@ sudo apt upgrade
 sudo apt install nfs-server
 ```
 
-> **📷 Capture :** Terminal — installation des paquets NFS
+<img src="images/10.png" alt="Terminal — installation des paquets NFS" width="500">
 
 > [!NOTE]
 > Le système sélectionne automatiquement `nfs-kernel-server` à la place de `nfs-server`.
@@ -139,7 +139,7 @@ sudo mount -t nfs IP_DU_SERVEUR:/home/partage /mnt/partage
 > [!IMPORTANT]
 > Remplacer `IP_DU_SERVEUR` par l'IP de la machine serveur (ex. `192.168.0.211`).
 
-> **📷 Capture :** Terminal — commande `mount` exécutée avec succès
+<img src="images/11.png" alt="Terminal — commande `mount` exécutée avec succès" width="600">
 
 ---
 
@@ -157,7 +157,7 @@ sudo apt-get clean
 wget https://updates.duplicati.com/beta/duplicati_2.0.5.1-1_all.deb
 ```
 
-> **📷 Capture :** Terminal — téléchargement du `.deb`
+<img src="images/12.png" alt="https://updates.duplicati" width="600">
 
 ### 3. Installer le paquet
 
@@ -178,7 +178,7 @@ sudo systemctl enable duplicati
 sudo systemctl start duplicati
 ```
 
-> **📷 Capture :** Terminal — création du symlink systemd
+<img src="images/13.png" alt="création du symlink systemd" width="600">
 
 ### 6. Accéder à l'interface web
 
@@ -188,7 +188,7 @@ Ouvrir Firefox et aller sur :
 http://localhost:8200
 ```
 
-> **📷 Capture :** Interface Duplicati dans Firefox — page Paramètres
+<img src="images/14.png" alt="Interface Duplicati dans Firefox" width="600">
 
 ### 7. Configurer une sauvegarde
 
@@ -199,7 +199,7 @@ http://localhost:8200
    - **Chiffrement** : AES-256 (par défaut)
    - **Phrase secrète** : choisir un mot de passe
 
-> **📷 Capture :** Formulaire "Paramètres généraux de sauvegarde"
+<img src="images/14.png" alt="Paramètres généraux de sauvegarde" width="600">
 
 4. **Destination** — renseigner la destination :
    - **Type de stockage** : Dossier ou disque local
