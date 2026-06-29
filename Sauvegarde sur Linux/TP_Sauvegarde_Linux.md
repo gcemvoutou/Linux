@@ -43,6 +43,9 @@ sudo apt upgrade
 > Linux peut indiquer qu'aucune mise à jour n'est requise mais signaler qu'un ancien paquet résiduel (ex. `libllvm8`) n'est plus nécessaire et peut être nettoyé.
 
 <img src="images/3.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
+
+***Le terminal en train de télécharger un paquet (linux-libc-dev) depuis internet*
+
 <img src="images/4.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
 
 ---
