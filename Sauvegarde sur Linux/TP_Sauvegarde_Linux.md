@@ -16,7 +16,7 @@
 
 **VM Ubuntu sur VirtualBox — Accès par pont**
 
-> **📷 Capture :** Configuration réseau VirtualBox (Adapter 1 → Accès par pont)
+![Configuration réseau VirtualBox](images/1.png)
 
 > [!NOTE]
 > Le mode **Accès par pont** permet à la VM d'obtenir une IP sur le réseau local réel, comme une machine physique. Chaque VM aura ainsi une IP unique et différente.
