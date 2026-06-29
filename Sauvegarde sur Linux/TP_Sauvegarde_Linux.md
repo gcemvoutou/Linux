@@ -16,7 +16,7 @@
 
 **VM Ubuntu sur VirtualBox — Accès par pont**
 
-<img src="images/1.png" alt="Capture d'écran de la vérification de la sauvegarde Linux" width="400">
+<img src="images/1.png" alt="Capture d'écran de la vérification de la sauvegarde Linux" width="450">
  
 
 > [!NOTE]
