@@ -60,6 +60,8 @@ sudo apt install nfs-server
 
 <img src="images/10.png" alt="Terminal — installation des paquets NFS" width="500">
 
+***Le système a téléchargé et est actuellement en train d'installer tous les paquets nécessaires pour le serveur NFS.*
+
 > [!NOTE]
 > Le système sélectionne automatiquement `nfs-kernel-server` à la place de `nfs-server`.
 
@@ -95,6 +97,7 @@ Ajouter la ligne suivante dans le fichier :
 ```bash
 sudo systemctl start nfs-server
 ```
+***La commande demande au système de lancer le service de partage de fichiers NFS en arrière-plan.*
 
 ### 5. Vérifier le statut
 
@@ -104,6 +107,12 @@ sudo systemctl status nfs-server
 
 <img src="images/6.png" alt="Terminal — statut `active (exited)` ✅" width="600">
 
+```bash
+sudo systemctl stop nfs-server
+```
+<img src="images/7.png" alt="Statut après `stop`" width="600">
+
+***Cette comande arrête complètement le serveur NFS, ce qui coupe l'accès aux dossiers partagés.*
 
 ### Commandes utiles
 
@@ -113,7 +122,6 @@ sudo systemctl status nfs-server
 | `sudo systemctl restart nfs-server` | Redémarre le serveur (à faire après modification de `/etc/exports`) |
 | `sudo systemctl status nfs-server` | Vérifie que le service tourne |
 
-<img src="images/7.png" alt="Statut après `stop`" width="600">
 
 ---
 
@@ -131,18 +139,18 @@ ifconfig
 
 ```bash
 sudo mkdir -p /mnt/partage
-```
+``` 
+***Créé le dossier vide sur la machine cliente, là où va apparaître le partage*
 
 ### 3. Monter le partage NFS
 
 ```bash
-sudo mount -t nfs IP_DU_SERVEUR:/home/partage /mnt/partage
+sudo mount -t nfs 192.168.0.211:/home/partage /mnt/partage
 ```
 
-> [!IMPORTANT]
-> Remplacer `IP_DU_SERVEUR` par l'IP de la machine serveur (ex. `192.168.0.211`).
-
 <img src="images/11.png" alt="Terminal — commande `mount` exécutée avec succès" width="600">
+
+***Cette commande connecte notre client au serveur NFS pour accéder aux fichiers*
 
 ---
 
