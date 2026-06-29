@@ -122,7 +122,7 @@ sudo systemctl status nfs-server
 ifconfig
 ```
 
-> **📷 Capture :** Sortie `ifconfig` — IP de la machine cliente
+<img src="images/8.png" alt="Statut après `stop`" width="600">
 
 ### 2. Créer le point de montage
 
