@@ -16,7 +16,8 @@
 
 **VM Ubuntu sur VirtualBox — Accès par pont**
 
- <img src="1.png" width="400">
+<img src="images/1.png" alt="Capture d'écran de la vérification de la sauvegarde Linux" width="400">
+ 
 
 > [!NOTE]
 > Le mode **Accès par pont** permet à la VM d'obtenir une IP sur le réseau local réel, comme une machine physique. Chaque VM aura ainsi une IP unique et différente.
