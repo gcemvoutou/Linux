@@ -78,7 +78,7 @@ Ajouter la ligne suivante dans le fichier :
 /home/partage IP_DE_LA_VM_CLIENTE(rw,no_root_squash)
 ```
 
-<img src="images/5.png" alt="Éditeur nano — fichier `/etc/exports`" width="500">
+<img src="images/5.png" alt="Éditeur nano — fichier `/etc/exports`" width="600">
 
 > [!IMPORTANT]
 > Remplacer `IP_DE_LA_VM_CLIENTE` par l'IP réelle de ta machine cliente (ex. `192.168.0.189`). Cette IP est celle obtenue via `ifconfig` sur la machine cliente.
