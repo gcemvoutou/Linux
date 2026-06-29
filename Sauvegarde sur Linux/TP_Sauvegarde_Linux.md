@@ -275,7 +275,7 @@ tar -czvf ~/Documents/backup_duplicati_total.tar.gz /mnt/partage
 > [!TIP]
 > `tar -czvf` : **c**réer, **z** compresser (gzip), **v**erbeux (affiche les fichiers), **f** spécifie le nom du fichier de sortie.
 
-> **📷 Capture :** Terminal — liste des fichiers ajoutés à l'archive <img src="images/22.png" alt="liste des fichiers ajoutés à l'archive" width="600">
+<img src="images/22.png" alt="liste des fichiers ajoutés à l'archive" width="600">
 
 ---
 
@@ -297,15 +297,16 @@ Aller tout en bas du fichier et ajouter la ligne :
 > Format crontab : `minute heure jour_du_mois mois jour_de_la_semaine commande`
 > Ici `0 0 * * *` = tous les jours à minuit.
 
-> **📷 Capture :** Éditeur nano — fichier crontab avec la ligne ajoutée en bas
+<img src="images/23.png" alt="Éditeur nano — fichier crontab" width="600">
 
 ### Vérification après exécution
 
 ```bash
 ls -lh ~/Documents/
 ```
+***Une fois l'heure passée, ls -lh ~/Documents/  cette commande nous a permis de valider le bon fonctionnement de la tâche. On constate la création réussie de l'archive compressée de 163 Mo contenant l'ensemble des blocs Duplicati.*
 
-> **📷 Capture :** Fichier `backup_duplicati_total.tar.gz` de 163 Mo présent dans `~/Documents/`
+> <img src="images/23.png" alt="Fichier `backup_duplicati_total.tar.gz`" width="600">
 
 > [!NOTE]
 > La présence du fichier archive confirme que la tâche crontab s'est exécutée correctement à l'heure programmée.
