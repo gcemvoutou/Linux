@@ -1,3 +1,6 @@
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Scolaire-blue)
+
 # 🛠️ Infrastructure de Sauvegarde Réseau sous Linux
 
 Ce projet présente la mise en place complète d'une architecture de sauvegarde centralisée, sécurisée et redondante entre deux machines virtuelles Ubuntu.
