@@ -308,7 +308,7 @@ Aller tout en bas du fichier et ajouter la ligne :
 > Format crontab : `minute heure jour_du_mois mois jour_de_la_semaine commande`
 > Ici `0 0 * * *` = tous les jours à minuit.
 
-<img src="images/26.png" alt="Éditeur nano — fichier crontab" width="600">
+<img src="images/23.png" alt="Fichier `backup_duplicati_total.tar.gz`" width="600">
 
 ### Vérification après exécution
 
@@ -317,7 +317,8 @@ ls -lh ~/Documents/
 ```
 **Une fois l'heure passée, ls -lh ~/Documents/  cette commande nous a permis de valider le bon fonctionnement de la tâche. On constate la création réussie de l'archive compressée de 163 Mo contenant l'ensemble des blocs Duplicati.*
 
-> <img src="images/23.png" alt="Fichier `backup_duplicati_total.tar.gz`" width="600">
+
+<img src="images/26.png" alt="Éditeur nano — fichier crontab" width="600">
 
 > [!NOTE]
 > La présence du fichier archive confirme que la tâche crontab s'est exécutée correctement à l'heure programmée.
