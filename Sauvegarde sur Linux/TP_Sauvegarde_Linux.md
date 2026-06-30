@@ -112,7 +112,7 @@ sudo systemctl stop nfs-server
 ```
 <img src="images/7.png" alt="Statut après `stop`" width="600">
 
-**Cette comande arrête complètement le serveur NFS, ce qui coupe l'accès aux dossiers partagés.*
+***Cette comande arrête complètement le serveur NFS, ce qui coupe l'accès aux dossiers partagés.*
 
 ### Commandes utiles
 
