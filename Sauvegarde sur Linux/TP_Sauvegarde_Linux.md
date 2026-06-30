@@ -44,7 +44,7 @@ sudo apt upgrade
 
 <img src="images/3.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
 
-**Le terminal en train de télécharger un paquet (linux-libc-dev) depuis internet*
+*Le terminal en train de télécharger un paquet (linux-libc-dev) depuis internet*
 
 <img src="images/4.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
 
