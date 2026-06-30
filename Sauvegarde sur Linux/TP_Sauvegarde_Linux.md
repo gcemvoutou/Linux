@@ -242,7 +242,7 @@ http://localhost:8200
 
 Cliquer sur **« Démarrer maintenant »** (ou *Run now*) sous le nom de la sauvegarde.
 
-<img src="images/25.png" alt="Barre de progression" width="600">
+<img src="images/25.png" alt="Barre de progression" width="500">
 
 ---
 
