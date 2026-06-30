@@ -315,7 +315,7 @@ Aller tout en bas du fichier et ajouter la ligne :
 ```bash
 ls -lh ~/Documents/
 ```
-***Une fois l'heure passée, ls -lh ~/Documents/  cette commande nous a permis de valider le bon fonctionnement de la tâche. On constate la création réussie de l'archive compressée de 163 Mo contenant l'ensemble des blocs Duplicati.*
+**Une fois l'heure passée, ls -lh ~/Documents/  cette commande nous a permis de valider le bon fonctionnement de la tâche. On constate la création réussie de l'archive compressée de 163 Mo contenant l'ensemble des blocs Duplicati.*
 
 > <img src="images/23.png" alt="Fichier `backup_duplicati_total.tar.gz`" width="600">
 
