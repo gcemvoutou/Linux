@@ -44,7 +44,7 @@ sudo apt upgrade
 
 <img src="images/3.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
 
-***Le terminal en train de télécharger un paquet (linux-libc-dev) depuis internet*
+**Le terminal en train de télécharger un paquet (linux-libc-dev) depuis internet*
 
 <img src="images/4.png" alt="Terminal — téléchargement du paquet `linux-libc-dev` avec barre de progression" width="500">
 
@@ -60,7 +60,7 @@ sudo apt install nfs-server
 
 <img src="images/10.png" alt="Terminal — installation des paquets NFS" width="500">
 
-***Le système a téléchargé et est actuellement en train d'installer tous les paquets nécessaires pour le serveur NFS.*
+**Le système a téléchargé et est actuellement en train d'installer tous les paquets nécessaires pour le serveur NFS.*
 
 > [!NOTE]
 > Le système sélectionne automatiquement `nfs-kernel-server` à la place de `nfs-server`.
@@ -97,7 +97,7 @@ Ajouter la ligne suivante dans le fichier :
 ```bash
 sudo systemctl start nfs-server
 ```
-***La commande demande au système de lancer le service de partage de fichiers NFS en arrière-plan.*
+**La commande demande au système de lancer le service de partage de fichiers NFS en arrière-plan.*
 
 ### 5. Vérifier le statut
 
@@ -112,7 +112,7 @@ sudo systemctl stop nfs-server
 ```
 <img src="images/7.png" alt="Statut après `stop`" width="600">
 
-***Cette comande arrête complètement le serveur NFS, ce qui coupe l'accès aux dossiers partagés.*
+**Cette comande arrête complètement le serveur NFS, ce qui coupe l'accès aux dossiers partagés.*
 
 ### Commandes utiles
 
@@ -140,7 +140,7 @@ ifconfig
 ```bash
 sudo mkdir -p /mnt/partage
 ``` 
-***Créé le dossier vide sur la machine cliente, là où va apparaître le partage*
+**Créé le dossier vide sur la machine cliente, là où va apparaître le partage*
 
 ### 3. Monter le partage NFS
 
@@ -150,7 +150,7 @@ sudo mount -t nfs 192.168.0.211:/home/partage /mnt/partage
 
 <img src="images/11.png" alt="Terminal — commande `mount` exécutée avec succès" width="600">
 
-***Cette commande connecte notre client au serveur NFS pour accéder aux fichiers*
+**Cette commande connecte notre client au serveur NFS pour accéder aux fichiers*
 
 ---
 
@@ -308,7 +308,7 @@ Aller tout en bas du fichier et ajouter la ligne :
 > Format crontab : `minute heure jour_du_mois mois jour_de_la_semaine commande`
 > Ici `0 0 * * *` = tous les jours à minuit.
 
-<img src="images/23.png" alt="Éditeur nano — fichier crontab" width="600">
+<img src="images/26.png" alt="Éditeur nano — fichier crontab" width="600">
 
 ### Vérification après exécution
 
