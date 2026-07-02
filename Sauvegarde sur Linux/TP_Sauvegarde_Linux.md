@@ -189,7 +189,7 @@ sudo systemctl enable duplicati
 sudo systemctl start duplicati
 ```
 
-<img src="images/13.png" alt="création du symlink systemd" width="600">
+<img src="images/13.png" alt="création du symlink systemd" width="700">
 
 ### 6. Accéder à l'interface web
 
